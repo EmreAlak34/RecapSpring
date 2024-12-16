@@ -1,0 +1,63 @@
+# Help Files
+HELP.md
+
+# Maven build outputs
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+.idea/.name
+.idea/modules.xml
+.idea/workspace.xml
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux system files
+*~
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Gradle
+.gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# JRebel
+.jrebel/
+
+# JetBrains cache files
+.idea/*.iml
+.idea/.idea/.cache
+
+# Spring Boot JAR files
+*.jar
